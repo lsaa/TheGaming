@@ -6,8 +6,6 @@ categories: [extras, offtopic]
 tags: [offtopic, testing]
 ---
 
-{{site.baseurl}}
-
 Obligatory first post to test out how GitHub Pages handles them. Seems simple so far, but I obliously haven't seen the results yet.
 
 Going to set some future plans here since the rest of the blog is quite minimalist so this post seems like prime real estate for it.
