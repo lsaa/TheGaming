@@ -3,7 +3,8 @@ layout: default
 ---
 
 {{ page.date | date: "%-d %B %Y" }}
-#{{ page.title }}
+
+# {{ page.title }}
 
 {{content}}
 
