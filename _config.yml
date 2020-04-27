@@ -1,2 +1,11 @@
 theme: jekyll-theme-minimal
 baseurl: /gaming
+
+defaults:
+  -
+    scope:
+      path: "_posts/post"
+      type: "pages"
+    values:
+      layout: "tpost"
+      permalink: /post/:title
