@@ -8,4 +8,8 @@ I also (try to) make some games, you can find them all at [my itch.io page](http
 
 ## Recent Pages
 
-hang on, I might need to do these manually :p
+hang on, I might need to do these manually :b
+
+## About me
+
+Yeah, nah. My favorite game is Dark Souls and that's my only personality trait. (Terraria is a close second)
