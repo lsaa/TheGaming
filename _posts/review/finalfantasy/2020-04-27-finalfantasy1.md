@@ -9,6 +9,6 @@ g-year: "1987"
 g-platforms: ["NES"]
 ---
 
-![Clear Proof](/img/ff1/clear.jpg)
+![Clear Proof]({{site.baseurl}}/img/ff1/clear.jpg)
 
 haha final fantasy
