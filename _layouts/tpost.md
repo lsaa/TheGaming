@@ -8,7 +8,7 @@ layout: default
     <span style="float:right;">
         {{ page.author }}
     </span>
-    <h1>{{ page.title }}</h1>
+    <h1 style="display: inline-block;">{{ page.title }}</h1>
 </p>
 <hr>
 {{content}}
