@@ -16,8 +16,6 @@ Going to set some future plans here since the rest of the blog is quite minimali
 
 Also, out of curiosity, how do tables look like?
 
----
-
 | hello        | goodbye           |
 |:-------------|:------------------|
 | hello        | goodbye :(        |
