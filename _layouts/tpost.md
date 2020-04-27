@@ -4,7 +4,7 @@ layout: default
 
 {{ page.date | date: "%-d %B %Y" }}
 
-<p style="text-align:left;">
+<p style="text-align:left; margin-bottom: -5">
     <span style="float:right;">
         {{ page.author }}
     </span>
