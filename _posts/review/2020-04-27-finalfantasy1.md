@@ -9,6 +9,6 @@ g-year: "1987"
 g-platforms: ["NES"]
 ---
 
-[Clear Proof goes here]
+![Clear Proof](/assets/reviews/ff1/clear.jpg)
 
 haha final fantasy
