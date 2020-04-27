@@ -4,6 +4,7 @@ title:  "Start Game"
 author: "kyo"
 categories: [extras, offtopic]
 tags: [offtopic, testing]
+permalink: /post/:title
 ---
 
 Obligatory first post to test out how GitHub Pages handles them. Seems simple so far, but I obliously haven't seen the results yet.
