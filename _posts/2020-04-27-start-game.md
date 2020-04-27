@@ -5,6 +5,7 @@ author: "kyo"
 categories: [extras, offtopic]
 tags: [offtopic, testing]
 ---
+---
 
 Obligatory first post to test out how GitHub Pages handles them. Seems simple so far, but I obliously haven't seen the results yet.
 
@@ -17,6 +18,7 @@ Going to set some future plans here since the rest of the blog is quite minimali
 Also, out of curiosity, how do tables look like?
 
 ---
-hello: ok
-goodbye: ok :(
----
+
+| hello        | goodbye           |
+|:-------------|:------------------|
+| hello        | goodbye :(        |
