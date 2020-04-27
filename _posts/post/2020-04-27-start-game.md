@@ -2,7 +2,7 @@
 layout: tpost
 title:  "Start Game"
 author: "kyo"
-categories: [extras, offtopic]
+categories: [post]
 tags: [offtopic, testing]
 ---
 
