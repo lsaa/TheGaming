@@ -6,8 +6,8 @@ layout: default
 
 <div style="text-align:left; margin-bottom: -18px;">
     <h1 style="display: inline-block;">{{ page.title }}</h1>
-    <span style="float:right;">
-        {{ page.author }}
+    <span style="float:right; position: relative; bottom: -10px;">
+        by {{ page.author }}
     </span>
 </div>
 <hr>
