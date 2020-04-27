@@ -6,6 +6,10 @@ layout: default
 
 # {{ page.title }}
 
+---
+
+*test*
+
 {{content}}
 
 {% if page.tags %}
