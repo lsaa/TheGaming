@@ -9,9 +9,9 @@ I also (try to) make some games, you can find them all at [my itch.io page](http
 ## Recent Pages
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
-      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ post.date  }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
