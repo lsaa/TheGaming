@@ -1,3 +1,5 @@
+<link rel="icon" href="/gaming/img/gaming.ico" type="image/x-icon" />
+
 ## Welcome to "gaming"
 
 `truly an afterthought of a "blog"`
