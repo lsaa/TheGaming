@@ -5,10 +5,10 @@ layout: default
 {{ page.date | date: "%-d %B %Y" }}
 
 <p style="text-align:left;">
-    <h1>{{ page.title }}</h1>
     <span style="float:right;">
         {{ page.author }}
     </span>
+    <h1>{{ page.title }}</h1>
 </p>
 
 
