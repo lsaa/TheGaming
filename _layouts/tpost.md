@@ -4,12 +4,12 @@ layout: default
 
 {{ page.date | date: "%-d %B %Y" }}
 
-<p style="text-align:left; margin-bottom: -5">
+<div style="text-align:left; margin-bottom: -5;">
     <span style="float:right;">
         {{ page.author }}
     </span>
     <h1 style="display: inline-block;">{{ page.title }}</h1>
-</p>
+</div>
 <hr>
 {{content}}
 
