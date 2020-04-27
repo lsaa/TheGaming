@@ -11,7 +11,7 @@ I also (try to) make some games, you can find them all at [my itch.io page](http
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
-      <a href="{{site.baseurl}}{{ post.url }}">{{ post.date  }} - {{ post.title }}</a>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ page.date | date: "%-d %B %Y" }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
