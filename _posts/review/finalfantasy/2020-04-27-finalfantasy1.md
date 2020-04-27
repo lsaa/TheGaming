@@ -10,7 +10,7 @@ g-platforms: ["NES", "GBA", "PS1", "PSP", "WII", "MOBILE", "3DS", "WIIU"]
 ---
 
 ![Clear Proof]({{site.baseurl}}/img/ff1/clear.jpg)
-Version: GBA (Dawn of Souls)
+Version: GBA (Dawn of Souls); Always found it funny how the save file also shows with the configured text box bg color
 
 Started playing through the Final Fantasy main series + Tactics in order and was expecting this to be unpolished and mostly boring; Thankfully I was Wrong, this game still holds up to JRPGs today, though the version I picked (GBA) is a bit too easy compared to the original because it replaces the magic "charges" with MP, which is a better system but it messed with the balance of things a bit. Was tempted to try the PSP version but, while the graphics have more resolution the retro aesthetic got binned, gonna be real, picked the GBA version because of the graphics and sound.
 
