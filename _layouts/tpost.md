@@ -4,11 +4,7 @@ layout: default
 
 {{ page.date | date: "%-d %B %Y" }}
 
-# {{ page.title }}
-
----
-
-*test*
+<h1>{{ page.title }}</h1>
 
 {{content}}
 
