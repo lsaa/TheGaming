@@ -5,7 +5,6 @@ author: "kyo"
 categories: [extras, offtopic]
 tags: [offtopic, testing]
 ---
----
 
 Obligatory first post to test out how GitHub Pages handles them. Seems simple so far, but I obliously haven't seen the results yet.
 

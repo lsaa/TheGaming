@@ -10,8 +10,7 @@ layout: default
     </span>
     <h1>{{ page.title }}</h1>
 </p>
-
-
+<hr>
 {{content}}
 
 {% if page.tags %}
