@@ -8,7 +8,13 @@ I also (try to) make some games, you can find them all at [my itch.io page](http
 
 ## Recent Pages
 
-hang on, I might need to do these manually :b
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 ## About me
 
