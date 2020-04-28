@@ -22,7 +22,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view"><img href="{{ site.github.repository_url }}" src="{{site.baseurl}}/assets/site/icons/github.png" /></p>
+        <p class="view"><a href="{{ site.github.repository_url }}"><img src="{{site.baseurl}}/assets/site/icons/github.png" /></a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
