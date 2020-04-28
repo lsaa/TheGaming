@@ -1,7 +1,8 @@
 ---
-permalink: /posts/
+permalink: /reviews/
 ---
 
+<div>
 {% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -23,3 +24,4 @@ permalink: /posts/
         {% endif %}
     {% endif %}
 {% endfor %}
+</div>
