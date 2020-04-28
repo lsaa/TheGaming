@@ -12,7 +12,7 @@ permalink: /reviews/
     <ul>
     {% endif %}
 
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: "%Y-%m-%-d" }} - {{ post.title }}</a></li>
 
     {% if forloop.last %}
     </ul>
