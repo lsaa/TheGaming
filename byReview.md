@@ -1,5 +1,5 @@
 ---
-permalink: /posts
+permalink: /posts/
 ---
 
 {% for post in site.posts  %}
