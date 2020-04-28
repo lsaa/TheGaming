@@ -3,7 +3,7 @@ permalink: /reviews/
 ---
 
 <div>
-{% for post in site.posts reversed %}
+{% for post in site.categories.review reversed %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
