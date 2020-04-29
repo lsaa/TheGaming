@@ -7,6 +7,8 @@ tags: [dragon-quest, square-enix, jrpg, rpg, nes, fantasy, adventure]
 g-franchise: "Dragon Quest"
 g-years: ["1986", "1993", "1999", "2011", "2013", "2017", "2017", "2019"]
 g-platforms: ["NES", "SNES", "GBC", "WII", "MOBILE", "3DS", "PS4", "SWITCH"]
+g-franchise-order: 1
+g-main-year: 1986
 ---
 
 ![Clear Proof]({{site.baseurl}}/img/dq1/clear.jpg)
