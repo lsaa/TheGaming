@@ -8,6 +8,8 @@ permalink: /reviews/
 {% assign reviews = site.posts | sort: "g-main-year" %}
 {% assign reviews = reviews | sort: "g-franchise-order" %}
 {% assign reviews = reviews | sort: "g-franchise" %}
+{% assign reviews = reviews | sort: "date" %}
+{% assign reviews = reviews | where_exp: "review", "review.categories contains 'review' " %}
 {% for post in reviews %}
     {% assign ndate = post.date | date: "%Y" %}
     {% assign fr = fr | push: ndate %}
