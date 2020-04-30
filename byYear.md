@@ -2,26 +2,50 @@
 permalink: /reviews-year/
 ---
 
+{% assign fr = "" | split: ',' %}
+
 <div>
-{% for post in site.categories.review reversed %}
-    {% capture this_year %}{{ post.g-main-year }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.g-main-year }}{% endcapture %}
+{% assign reviews = site.posts | sort: "g-main-year" %}
+{% assign reviews = reviews | sort: "g-franchise-order" %}
+{% assign reviews = reviews | sort: "g-franchise" %}
+{% for post in reviews %}
+    {% assign fr = fr | push: post.g-main-year %}
+{% endfor %}
 
-    {% if forloop.first %}
-    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-    <ul>
-    {% endif %}
+<table>
+{% assign fr = fr | uniq %}
+{% assign frCount = "" | split: ',' %}
 
-    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: "%Y-%m-%-d" }} - {{ post.title }}</a></li>
-
-    {% if forloop.last %}
-    </ul>
-    {% else %}
-        {% if this_year != next_year %}
-        </ul>
-        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-        <ul>
-        {% endif %}
+{% for franchise in fr %}
+    {% if franchise %}
+        {% assign counter = 0 %}
+        {% for post in reviews %}
+            {% if post.g-main-year == franchise and post.g-main-year %}
+                {% assign counter = counter | plus: 1 %}
+            {% endif %}
+        {% endfor %}
+        {% assign frCount = frCount | push: counter %}
     {% endif %}
 {% endfor %}
+
+
+{% assign franchiseCC = -1 %}
+{% for franchise in fr %}
+    {% for post in reviews %}
+        {% if post.g-main-year == franchise and post.g-main-year %}
+            {% if post.g-franchise-order == 1 %}
+                {% assign franchiseCC = franchiseCC | plus: 1 %}
+                <tr>
+                    <td rowspan="{{frCount[franchiseCC]}}" style="vertical-align: top">{{franchise}}</td>
+                    <td><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></td>
+                </tr>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</table>
 </div>
