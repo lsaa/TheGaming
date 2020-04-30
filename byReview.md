@@ -9,7 +9,8 @@ permalink: /reviews/
 {% assign reviews = reviews | sort: "g-franchise-order" %}
 {% assign reviews = reviews | sort: "g-franchise" %}
 {% for post in reviews %}
-    {% assign fr = fr | push: post.date | date: "%Y" %}
+    {% assign ndate = post.date | date: "%Y" %}
+    {% assign fr = fr | push: ndate %}
 {% endfor %}
 
 <table>
@@ -20,7 +21,8 @@ permalink: /reviews/
     {% if franchise %}
         {% assign counter = 0 %}
         {% for post in reviews %}
-            {% if post.date | date: "%Y" == franchise and post.date | date: "%Y" %}
+            {% assign ndate = post.date | date: "%Y" %}
+            {% if ndate == franchise and ndate %}
                 {% assign counter = counter | plus: 1 %}
             {% endif %}
         {% endfor %}
@@ -32,8 +34,9 @@ permalink: /reviews/
 {% assign franchiseCC = -1 %}
 {% for franchise in fr %}
     {% for post in reviews %}
-        {% if post.date | date: "%Y" == franchise and post.date | date: "%Y" %}
-            {% if post.date | date: "%Y" == 1 %}
+        {% assign ndate = post.date | date: "%Y" %}
+        {% if ndate == franchise and ndate %}
+            {% if ndate %}
                 {% assign franchiseCC = franchiseCC | plus: 1 %}
                 <tr>
                     <td rowspan="{{frCount[franchiseCC]}}" style="vertical-align: top">{{franchise}}</td>
