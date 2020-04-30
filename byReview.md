@@ -36,7 +36,7 @@ permalink: /reviews/
     {% for post in reviews %}
         {% assign ndate = post.date | date: "%Y" %}
         {% if ndate == franchise and ndate %}
-            {% if ndate %}
+            {% if forloop.index0 == 0 %}
                 {% assign franchiseCC = franchiseCC | plus: 1 %}
                 <tr>
                     <td rowspan="{{frCount[franchiseCC]}}" style="vertical-align: top">{{franchise}}</td>
