@@ -1,5 +1,5 @@
 ---
-layout: tpost
+layout: review
 title:  "Dragon Quest"
 author: "kyo"
 categories: [review]
@@ -9,6 +9,8 @@ g-years: ["1986", "1993", "1999", "2011", "2013", "2017", "2017", "2019"]
 g-platforms: ["NES", "SNES", "GBC", "WII", "MOBILE", "3DS", "PS4", "SWITCH"]
 g-franchise-order: 1
 g-main-year: 1986
+g-dev: "ChunSoft"
+g-img-cover: /img/dq1/cover.jpg
 ---
 
 ![Clear Proof]({{site.baseurl}}/img/dq1/clear.jpg)

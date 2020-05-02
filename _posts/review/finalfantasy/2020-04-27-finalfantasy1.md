@@ -1,5 +1,5 @@
 ---
-layout: tpost
+layout: review
 title:  "Final Fantasy"
 author: "kyo"
 categories: [review]
@@ -9,6 +9,8 @@ g-years: ["1987", "2004", "2002", "2007", "2009", "2010", "2013", "2013"]
 g-platforms: ["NES", "GBA", "PS1", "PSP", "WII", "MOBILE", "3DS", "WIIU"]
 g-franchise-order: 1
 g-main-year: 1987
+g-img-cover: /img/ff1/cover.jpg
+g-dev: "Square Enix"
 ---
 
 ![Clear Proof]({{site.baseurl}}/img/ff1/clear.jpg)
