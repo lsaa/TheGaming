@@ -1,0 +1,4 @@
+---
+permalink: /based/
+layout: based
+---
